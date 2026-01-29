@@ -1,3 +1,21 @@
+
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # The Big Lebowski: A Tale of Collapse of a Local Minima
 
 This is a brilliant topological reading of the Coen Brothers’ masterpiece. If we view *The Big Lebowski* not just as a stoner noir, but as a system dynamics simulation, the entire plot describes a stable system being forcibly ejected from a deep basin of attraction.
